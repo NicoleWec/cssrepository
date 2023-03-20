@@ -55,9 +55,31 @@
 }
 
 .box {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  padding-left: 50px;
     background-color: brown;
     border: 5px solid black;
 }
-
+C:\Users\weczn214\Desktop\cssrepository-1\kitty.jpeg
 
 /* zde je vytvoreno navigacni menu */
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  display: inline;
+}
+.div {
+  display: none;
+}
+a {
+  display: block;
+}
