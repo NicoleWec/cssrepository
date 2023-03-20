@@ -66,13 +66,13 @@
     background-color: brown;
     border: 5px solid black;
 }
-C:\Users\weczn214\Desktop\cssrepository-1\kitty.jpeg
 
 /* zde je vytvoreno navigacni menu */
 ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+  overflow: hidden;
 }
 li {
   display: inline;
@@ -82,4 +82,20 @@ li {
 }
 a {
   display: block;
+  float: left;
+  padding: 5px;
+  background-color: rgb(209, 146, 64);
 }
+a:hover {
+  background-color: rgba(243, 22, 217, 0.697);
+  font-size: 50px;
+}
+a:link {
+  text-decoration: none;
+  color: rgb(141, 200, 14);
+}
+a:visited {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
